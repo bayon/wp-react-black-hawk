@@ -12,4 +12,47 @@
  Text Domain:  black-hawk-react-child
 */
 
- 
+
+/* FULL WIDTH LAYOUT (start) ---------- */
+div#page.site.container  {
+	width:100% !important;
+	padding: 0 0 0 0 !important;
+	margin-top:100px;
+}
+div.site-content-contain{
+	padding: 15px ;
+}
+/* FULL WIDTH LAYOUT (end)  ---------- */
+
+/* HEADER CHANGES (start) ---------- */
+div.custom-header.jumbotron{
+	/*is static*/
+	display:none;
+	background-color:#36414D;
+	border-radius:0px;
+
+}
+div.custom-header.jumbotron a{
+	 color:#fff;
+	 text-decoration:none;
+}
+div.custom-header.jumbotron a:hover{
+	 color:#ccc;
+}
+/* HEADER CHANGES (end)   ---------- */
+
+/* NAVIGATION CHANGES (start) ---------- */
+div.navigation-top{
+	position:fixed;
+	top:30px;
+	left:0px;
+	width:100%;
+	z-index:999;
+
+}
+nav#site-navigation.navbar.navbar-default{
+	border-radius:0px;
+	box-shadow: 0px 10px 5px #000;
+	height:100px;
+}
+/* NAVIGATION CHANGES (end) ---------- */
